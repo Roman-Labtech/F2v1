@@ -95,7 +95,7 @@ p {
   color: rgba(255, 255, 255, 0.87);
 }
 .md .color-theme-red a {
-  color: #f44336;
+  color: #d90f00;
 }
 .md .color-theme-green a {
   color: #4caf50;
@@ -122,7 +122,7 @@ p {
   color: #000000;
 }
 .md a.color-red {
-  color: #f44336;
+  color: #d90f00;
 }
 .md a.color-green {
   color: #4caf50;
@@ -616,7 +616,7 @@ html.with-statusbar.device-iphone-x .panel {
 }
 .md .color-theme-red .navbar,
 .md .color-theme-red.navbar {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .color-theme-green .navbar,
 .md .color-theme-green.navbar {
@@ -651,7 +651,7 @@ html.with-statusbar.device-iphone-x .panel {
   background: #000000;
 }
 .md .navbar.color-red {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .navbar.color-green {
   background: #4caf50;
@@ -1071,7 +1071,7 @@ html.with-statusbar.device-iphone-x .panel {
 }
 .md .color-theme-red .toolbar:not(.messagebar),
 .md .color-theme-red.toolbar:not(.messagebar) {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .color-theme-green .toolbar:not(.messagebar),
 .md .color-theme-green.toolbar:not(.messagebar) {
@@ -1106,7 +1106,7 @@ html.with-statusbar.device-iphone-x .panel {
   background: #000000;
 }
 .md .toolbar:not(.messagebar).color-red {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .toolbar:not(.messagebar).color-green {
   background: #4caf50;
@@ -1336,7 +1336,7 @@ html.with-statusbar.device-iphone-x .panel {
 }
 .md .color-theme-red .subnavbar,
 .md .color-theme-red.subnavbar {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .color-theme-green .subnavbar,
 .md .color-theme-green.subnavbar {
@@ -1371,7 +1371,7 @@ html.with-statusbar.device-iphone-x .panel {
   background: #000000;
 }
 .md .subnavbar.color-red {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .subnavbar.color-green {
   background: #4caf50;
@@ -2417,7 +2417,7 @@ html.device-pixel-ratio-3 .md li:last-child li .item-inner:after {
   color: rgba(255, 255, 255, 0.54);
 }
 .md .color-theme-red .list-button {
-  color: #f44336;
+  color: #d90f00;
 }
 .md .color-theme-green .list-button {
   color: #4caf50;
@@ -2450,7 +2450,7 @@ html.device-pixel-ratio-3 .md li:last-child li .item-inner:after {
 .md .links-list a.color-red,
 .md .list .item-link.color-red,
 .md .list li.color-red .item-link {
-  color: #f44336;
+  color: #d90f00;
 }
 .md .list .list-button.color-green,
 .md .list li.color-green .list-button,
@@ -2559,7 +2559,7 @@ html.device-pixel-ratio-3 .md li:last-child li .item-inner:after {
   font-size: 10px;
 }
 .md .badge.color-red {
-  background-color: #f44336;
+  background-color: #d90f00;
 }
 .md .badge.color-green {
   background-color: #4caf50;
@@ -2771,7 +2771,7 @@ button {
 }
 .md .color-theme-red .button,
 .md .color-red .button {
-  color: #f44336;
+  color: #d90f00;
 }
 .md .color-theme-red .button.button-fill,
 .md .color-red .button.button-fill,
@@ -2781,7 +2781,7 @@ button {
 .md .color-red .button.button-active,
 .md .color-theme-red .button.tab-link-active,
 .md .color-red .button.tab-link-active {
-  background-color: #f44336;
+  background-color: #d90f00;
   color: #fff;
 }
 .md .color-theme-red .button.button-fill.active-state,
@@ -2796,7 +2796,7 @@ button {
 }
 .md .color-theme-red .button.button-outline,
 .md .color-red .button.button-outline {
-  border-color: #f44336;
+  border-color: #d90f00;
 }
 .md .color-theme-green .button,
 .md .color-green .button {
@@ -3031,13 +3031,13 @@ button {
   border-color: #000000;
 }
 .md .button.color-red {
-  color: #f44336;
+  color: #d90f00;
 }
 .md .button.color-red.button-fill,
 .md .button.color-red.button-fill-md,
 .md .button.color-red.button-active,
 .md .button.color-red.tab-link-active {
-  background-color: #f44336;
+  background-color: #d90f00;
   color: #fff;
 }
 .md .button.color-red.button-fill.active-state,
@@ -3047,7 +3047,7 @@ button {
   background: #f21f0f;
 }
 .md .button.color-red.button-outline {
-  border-color: #f44336;
+  border-color: #d90f00;
 }
 .md .button.color-green {
   color: #4caf50;
@@ -3357,19 +3357,19 @@ i.icon {
 }
 .md .icon-back.color-red,
 .md a.link .color-red .icon-back {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M20%2011H7.83l5.59-5.59L12%204l-8%208%208%208%201.41-1.41L7.83%2013H20v-2z'%20fill%3D'%23f44336'%2F%3E%3C%2Fsvg%3E");
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M20%2011H7.83l5.59-5.59L12%204l-8%208%208%208%201.41-1.41L7.83%2013H20v-2z'%20fill%3D'%23d90f00'%2F%3E%3C%2Fsvg%3E");
 }
 .md .icon-forward.color-red,
 .md a.link .color-red .icon-forward {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M12%204l-1.41%201.41L16.17%2011H4v2h12.17l-5.58%205.59L12%2020l8-8z'%20fill%3D'%23f44336'%2F%3E%3C%2Fsvg%3E");
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M12%204l-1.41%201.41L16.17%2011H4v2h12.17l-5.58%205.59L12%2020l8-8z'%20fill%3D'%23d90f00'%2F%3E%3C%2Fsvg%3E");
 }
 .md .icon-next.color-red,
 .md a.link .color-red .icon-next {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%23f44336'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M10%206L8.59%207.41%2013.17%2012l-4.58%204.59L10%2018l6-6z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%23d90f00'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M10%206L8.59%207.41%2013.17%2012l-4.58%204.59L10%2018l6-6z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
 }
 .md .icon-prev.color-red,
 .md a.link .color-red .icon-prev {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%23f44336'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M15.41%207.41L14%206l-6%206%206%206%201.41-1.41L10.83%2012z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%23d90f00'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M15.41%207.41L14%206l-6%206%206%206%201.41-1.41L10.83%2012z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
 }
 .md .icon-back.color-green,
 .md a.link .color-green .icon-back {
@@ -3500,7 +3500,7 @@ i.icon {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%23000000'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M15.41%207.41L14%206l-6%206%206%206%201.41-1.41L10.83%2012z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
 }
 .md .icon.color-red {
-  color: #f44336;
+  color: #d90f00;
 }
 .md .icon.color-green {
   color: #4caf50;
@@ -3799,7 +3799,7 @@ input[type="button"].md .dialog-button {
   margin-top: 16px;
 }
 .md .dialog-button.color-red {
-  color: #f44336;
+  color: #d90f00;
 }
 .md .dialog-button.color-green {
   color: #4caf50;
@@ -4059,7 +4059,7 @@ html.with-statusbar.md:not(.device-ios):not(.device-android) .login-screen {
   background: none;
 }
 .md .color-theme-red .login-screen-content .list-button {
-  color: #f44336;
+  color: #d90f00;
 }
 .md .color-theme-green .login-screen-content .list-button {
   color: #4caf50;
@@ -4086,7 +4086,7 @@ html.with-statusbar.md:not(.device-ios):not(.device-android) .login-screen {
   color: #000000;
 }
 .md .login-screen-content .list-button.color-red {
-  color: #f44336;
+  color: #d90f00;
 }
 .md .login-screen-content .list-button.color-green {
   color: #4caf50;
@@ -4587,7 +4587,7 @@ html.with-statusbar.md:not(.device-ios):not(.device-android) .login-screen {
 .md .actions-button.color-red,
 .md .actions-label.color-red,
 .md .actions-button.color-red .actions-button-text {
-  color: #f44336;
+  color: #d90f00;
 }
 .md .actions-button.color-green,
 .md .actions-label.color-green,
@@ -5029,7 +5029,7 @@ html.with-modal-preloader .page-content {
 .md .preloader.preloader-red .preloader-inner-gap,
 .md .preloader.color-red .preloader-inner-half-circle,
 .md .preloader.preloader-red .preloader-inner-half-circle {
-  border-color: #f44336;
+  border-color: #d90f00;
 }
 .md .preloader.color-green .preloader-inner-gap,
 .md .preloader.preloader-green .preloader-inner-gap,
@@ -5527,11 +5527,11 @@ html.with-statusbar.md:not(.device-ios):not(.device-android) .framework7-root > 
   background: rgba(244, 67, 54, 0.5);
 }
 .md .color-theme-red .progressbar span {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .color-theme-red .progressbar-infinite:before,
 .md .color-theme-red .progressbar-infinite:after {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .color-theme-green .progressbar,
 .md .color-theme-green .progressbar-infinite {
@@ -5626,11 +5626,11 @@ html.with-statusbar.md:not(.device-ios):not(.device-android) .framework7-root > 
   background: rgba(244, 67, 54, 0.5);
 }
 .md .progressbar.color-red span {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .progressbar-infinite.color-red:before,
 .md .progressbar-infinite.color-red:after {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .progressbar.color-green,
 .md .progressbar-infinite.color-green {
@@ -5805,7 +5805,7 @@ html.with-statusbar.md:not(.device-ios):not(.device-android) .framework7-root > 
     background-color: #4caf50;
   }
   25% {
-    background-color: #f44336;
+    background-color: #d90f00;
   }
   50% {
     background-color: #2196f3;
@@ -5819,7 +5819,7 @@ html.with-statusbar.md:not(.device-ios):not(.device-android) .framework7-root > 
     background-color: #4caf50;
   }
   25% {
-    background-color: #f44336;
+    background-color: #d90f00;
   }
   50% {
     background-color: #2196f3;
@@ -5832,12 +5832,12 @@ html.with-statusbar.md:not(.device-ios):not(.device-android) .framework7-root > 
   0% {
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
-    background-color: #f44336;
+    background-color: #d90f00;
   }
   24.9% {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
-    background-color: #f44336;
+    background-color: #d90f00;
   }
   25% {
     -webkit-transform: scaleX(0);
@@ -5874,12 +5874,12 @@ html.with-statusbar.md:not(.device-ios):not(.device-android) .framework7-root > 
   0% {
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
-    background-color: #f44336;
+    background-color: #d90f00;
   }
   24.9% {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
-    background-color: #f44336;
+    background-color: #d90f00;
   }
   25% {
     -webkit-transform: scaleX(0);
@@ -6090,7 +6090,7 @@ html.with-statusbar.md:not(.device-ios):not(.device-android) .framework7-root > 
 }
 .md .swipeout-actions-left .swipeout-delete,
 .md .swipeout-actions-right .swipeout-delete {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .swipeout-actions-left > a.color-red,
 .md .swipeout-actions-right > a.color-red,
@@ -6100,7 +6100,7 @@ html.with-statusbar.md:not(.device-ios):not(.device-android) .framework7-root > 
 .md .swipeout-actions-right > span.color-red,
 .md .swipeout-actions-left > div.color-red,
 .md .swipeout-actions-right > div.color-red {
-  background-color: #f44336;
+  background-color: #d90f00;
 }
 .md .swipeout-actions-left > a.color-green,
 .md .swipeout-actions-right > a.color-green,
@@ -6910,7 +6910,7 @@ html.device-android-4 .accordion-item-content {
 .md .color-theme-red .timeline-item-date,
 .md .color-theme-red .timeline-year-title,
 .md .color-theme-red .timeline-month-title {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .color-theme-green .timeline-item-date,
 .md .color-theme-green .timeline-year-title,
@@ -6955,7 +6955,7 @@ html.device-android-4 .accordion-item-content {
 .md .timeline.color-theme-red .timeline-item-date,
 .md .timeline.color-theme-red .timeline-year-title,
 .md .timeline.color-theme-red .timeline-month-title {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .timeline.color-theme-green .timeline-item-date,
 .md .timeline.color-theme-green .timeline-year-title,
@@ -7432,7 +7432,7 @@ input[type="button"].md .card-footer a.link {
 .md .color-theme-red .card-footer a.link,
 .md .card-header.color-theme-red a.link,
 .md .card-footer.color-theme-red a.link {
-  color: #f44336;
+  color: #d90f00;
 }
 .md .color-theme-green .card-header a.link,
 .md .color-theme-green .card-footer a.link,
@@ -7484,7 +7484,7 @@ input[type="button"].md .card-footer a.link {
 }
 .md .card-header a.link.color-red,
 .md .card-footer a.link.color-red {
-  color: #f44336;
+  color: #d90f00;
 }
 .md .card-header a.link.color-green,
 .md .card-footer a.link.color-green {
@@ -7627,7 +7627,7 @@ input[type="button"].md .card-footer a.link {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20fill%3D'%23fff'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%20width%3D'24'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cpath%20d%3D'M12%202C6.47%202%202%206.47%202%2012s4.47%2010%2010%2010%2010-4.47%2010-10S17.53%202%2012%202zm5%2013.59L15.59%2017%2012%2013.41%208.41%2017%207%2015.59%2010.59%2012%207%208.41%208.41%207%2012%2010.59%2015.59%207%2017%208.41%2013.41%2012%2017%2015.59z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
 }
 .md .chip.color-red {
-  background: #f44336;
+  background: #d90f00;
   color: #fff;
 }
 .md .chip.color-green {
@@ -8011,7 +8011,7 @@ textarea {
   color: rgba(0, 0, 0, 0.45);
 }
 .md .item-input-error-message {
-  color: #f44336;
+  color: #d90f00;
   display: none;
 }
 .md .item-input-focused .item-label,
@@ -8023,10 +8023,10 @@ textarea {
 }
 .md .item-input-invalid .item-label,
 .md .item-input-invalid .item-floating-label {
-  color: #f44336;
+  color: #d90f00;
 }
 .md .item-input-invalid .item-input-wrap:after {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .item-input-invalid .item-input-error-message {
   display: block;
@@ -8149,10 +8149,10 @@ textarea {
 }
 .md .color-theme-red .item-input-focused .item-label,
 .md .color-theme-red .item-input-focused .item-floating-label {
-  color: #f44336;
+  color: #d90f00;
 }
 .md .color-theme-red .item-input-focused .item-input-wrap:after {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .color-theme-green .item-input-focused .item-label,
 .md .color-theme-green .item-input-focused .item-floating-label {
@@ -8212,10 +8212,10 @@ textarea {
 }
 .md .item-input-focused.color-red .item-label,
 .md .item-input-focused.color-red .item-floating-label {
-  color: #f44336;
+  color: #d90f00;
 }
 .md .item-input-focused.color-red .item-input-wrap:after {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .item-input-focused.color-green .item-label,
 .md .item-input-focused.color-green .item-floating-label {
@@ -8383,8 +8383,8 @@ label.item-checkbox.disabled,
 .md .color-theme-red label.item-checkbox input[type="checkbox"]:checked ~ .icon-checkbox,
 .md .color-theme-red label.item-checkbox input[type="checkbox"]:checked ~ * .icon-checkbox,
 .md .color-theme-red .checkbox input[type="checkbox"]:checked ~ i {
-  background-color: #f44336;
-  border-color: #f44336;
+  background-color: #d90f00;
+  border-color: #d90f00;
 }
 .md .color-theme-red .checkbox .ripple-wave {
   background: rgba(244, 67, 54, 0.5);
@@ -8464,8 +8464,8 @@ label.item-checkbox.disabled,
 .md label.item-checkbox.color-red input[type="checkbox"]:checked ~ .icon-checkbox,
 .md label.item-checkbox.color-red input[type="checkbox"]:checked ~ * .icon-checkbox,
 .md .checkbox.color-red input[type="checkbox"]:checked ~ i {
-  background-color: #f44336;
-  border-color: #f44336;
+  background-color: #d90f00;
+  border-color: #d90f00;
 }
 .md .checkbox.color-red .ripple-wave {
   background: rgba(244, 67, 54, 0.5);
@@ -8654,17 +8654,17 @@ label.item-radio.disabled,
   border-color: rgba(255, 255, 255, 0.54);
 }
 .md .color-theme-red .icon-radio:after {
-  background-color: #f44336;
+  background-color: #d90f00;
 }
 .md .color-theme-red label.item-radio input[type="radio"]:checked ~ .icon-radio,
 .md .color-theme-red label.item-radio input[type="radio"]:checked ~ * .icon-radio,
 .md .color-theme-red .radio input[type="radio"]:checked ~ .icon-radio {
-  border-color: #f44336;
+  border-color: #d90f00;
 }
 .md .color-theme-red label.item-radio input[type="radio"]:checked ~ .icon-radio:after,
 .md .color-theme-red label.item-radio input[type="radio"]:checked ~ * .icon-radio:after,
 .md .color-theme-red .radio input[type="radio"]:checked ~ .icon-radio:after {
-  background-color: #f44336;
+  background-color: #d90f00;
 }
 .md .color-theme-red .radio .ripple-wave {
   background: rgba(244, 67, 54, 0.5);
@@ -8798,17 +8798,17 @@ label.item-radio.disabled,
   background: rgba(0, 0, 0, 0.5);
 }
 .md .radio.color-red .icon-radio:after {
-  background-color: #f44336;
+  background-color: #d90f00;
 }
 .md label.item-radio.color-red input[type="radio"]:checked ~ .icon-radio,
 .md label.item-radio.color-red input[type="radio"]:checked ~ * .icon-radio,
 .md .radio.color-red input[type="radio"]:checked ~ .icon-radio {
-  border-color: #f44336;
+  border-color: #d90f00;
 }
 .md label.item-radio.color-red input[type="radio"]:checked ~ .icon-radio:after,
 .md label.item-radio.color-red input[type="radio"]:checked ~ * .icon-radio:after,
 .md .radio.color-red input[type="radio"]:checked ~ .icon-radio:after {
-  background-color: #f44336;
+  background-color: #d90f00;
 }
 .md .radio.color-red .ripple-wave {
   background: rgba(244, 67, 54, 0.5);
@@ -9022,7 +9022,7 @@ label.item-radio.disabled,
   background: rgba(244, 67, 54, 0.5);
 }
 .md .color-theme-red .toggle input[type="checkbox"]:checked + .toggle-icon:after {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .color-theme-green .toggle input[type="checkbox"]:checked + .toggle-icon {
   background: rgba(76, 175, 80, 0.5);
@@ -9076,7 +9076,7 @@ label.item-radio.disabled,
   background: rgba(244, 67, 54, 0.5);
 }
 .md .toggle.color-red input[type="checkbox"]:checked + .toggle-icon:after {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .toggle.color-green input[type="checkbox"]:checked + .toggle-icon {
   background: rgba(76, 175, 80, 0.5);
@@ -9262,7 +9262,7 @@ label.item-radio.disabled,
 .md .color-theme-red .range-slider .range-knob,
 .md .color-theme-red .range-slider .range-knob-label,
 .md .color-theme-red .range-slider .range-knob-label:before {
-  background-color: #f44336;
+  background-color: #d90f00;
 }
 .md .color-theme-green .range-slider .range-bar-active,
 .md .color-theme-green .range-slider .range-knob,
@@ -9316,7 +9316,7 @@ label.item-radio.disabled,
 .md .range-slider.color-red .range-knob,
 .md .range-slider.color-red .range-knob-label,
 .md .range-slider.color-red .range-knob-label:before {
-  background-color: #f44336;
+  background-color: #d90f00;
 }
 .md .range-slider.color-green .range-bar-active,
 .md .range-slider.color-green .range-knob,
@@ -10880,19 +10880,19 @@ label.item-radio.disabled,
 }
 .md .color-theme-red .calendar-header,
 .md .color-red .calendar-header {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .color-theme-red .calendar-day.calendar-day-today span,
 .md .color-red .calendar-day.calendar-day-today span {
-  color: #f44336;
+  color: #d90f00;
 }
 .md .color-theme-red .calendar-day.calendar-day-has-events span:after,
 .md .color-red .calendar-day.calendar-day-has-events span:after {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .color-theme-red .calendar-day.calendar-day-selected span,
 .md .color-red .calendar-day.calendar-day-selected span {
-  background: #f44336;
+  background: #d90f00;
   color: #fff;
 }
 .md .color-theme-red .calendar-day.calendar-day-selected span:after,
@@ -11906,7 +11906,7 @@ html.device-desktop .data-table .sortable-cell:not(.sortable-cell-active):hover:
 }
 .md .color-theme-red .data-table-title-selected,
 .md .color-red .data-table-title-selected {
-  color: #f44336;
+  color: #d90f00;
 }
 .md .color-theme-green .data-table-header-selected,
 .md .data-table-header-selected.color-green {
@@ -12310,7 +12310,7 @@ html.device-desktop .data-table .sortable-cell:not(.sortable-cell-active):hover:
 .md .color-theme-red .fab-buttons a,
 .md .color-theme-red.fab > a,
 .md .color-theme-red.fab-buttons a {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .color-theme-red .fab > a.active-state,
 .md .color-theme-red .fab-buttons a.active-state,
@@ -12320,7 +12320,7 @@ html.device-desktop .data-table .sortable-cell:not(.sortable-cell-active):hover:
 }
 .md .color-theme-red .fab-morph,
 .md .color-theme-red.fab-morph {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .color-theme-green .fab > a,
 .md .color-theme-green .fab-buttons a,
@@ -12455,7 +12455,7 @@ html.device-desktop .data-table .sortable-cell:not(.sortable-cell-active):hover:
 .md .fab-buttons.color-red a,
 .md .fab > a.color-red,
 .md .fab .fab-buttons > a.color-red {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .fab.color-red > a.active-state,
 .md .fab.color-red .fab-buttons > a.active-state,
@@ -12465,7 +12465,7 @@ html.device-desktop .data-table .sortable-cell:not(.sortable-cell-active):hover:
   background: #f21f0f;
 }
 .md .fab-morph.color-red {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .fab.color-green > a,
 .md .fab.color-green .fab-buttons > a,
@@ -14189,17 +14189,17 @@ button.swiper-pagination-bullet {
 .md .swiper-container-rtl .swiper-button-next.color-red,
 .md .color-theme-red .swiper-button-prev,
 .md .color-theme-red .swiper-container-rtl .swiper-button-next {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23f44336'%2F%3E%3C%2Fsvg%3E");
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23d90f00'%2F%3E%3C%2Fsvg%3E");
 }
 .md .swiper-button-next.color-red,
 .md .swiper-container-rtl .swiper-button-prev.color-red,
 .md .color-theme-red .swiper-button-next,
 .md .color-theme-red .swiper-container-rtl .swiper-button-prev {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23f44336'%2F%3E%3C%2Fsvg%3E");
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23d90f00'%2F%3E%3C%2Fsvg%3E");
 }
 .md .color-red .swiper-pagination-bullet-active,
 .md .color-theme-red .swiper-pagination-bullet-active {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .color-red .swiper-pagination-progressbar,
 .md .color-theme-red .swiper-pagination-progressbar,
@@ -14211,7 +14211,7 @@ button.swiper-pagination-bullet {
 .md .color-theme-red .swiper-pagination-progressbar .swiper-pagination-progressbar-fill,
 .md .color-red.swiper-pagination-progressbar .swiper-pagination-progressbar-fill,
 .md .color-theme-red.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
-  background: #f44336;
+  background: #d90f00;
 }
 .md .swiper-button-prev.color-green,
 .md .swiper-container-rtl .swiper-button-next.color-green,
@@ -15527,13 +15527,13 @@ iframe#viAd {
   margin-right: 16px !important;
 }
 .md .text-color-red {
-  color: #f44336 !important;
+  color: #d90f00 !important;
 }
 .md .bg-color-red {
-  background-color: #f44336 !important;
+  background-color: #d90f00 !important;
 }
 .md .border-color-red {
-  border-color: #f44336 !important;
+  border-color: #d90f00 !important;
 }
 .md .text-color-green {
   color: #4caf50 !important;
