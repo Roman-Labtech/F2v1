@@ -105,6 +105,7 @@ $$('.banner').on('click', function () {
 
     } else {
         alert( 'admob plugin not ready' );
+		window.plugins.AdMob.createBannerView();
     }
 	
 });
