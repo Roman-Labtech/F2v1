@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.katalog.labtech" version="1.7.7" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Лабораторные Технологии</name>
+    <description>
+       Framevork v2
+    </description>
+    <author email="labtechno.roman@yandex.ru" href="http://laboff.ru">
+        Laboratornye technologii
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <preference name="DisallowOverscroll" value="true" />
+        <preference name="AutoHideSplashScreen" value="true" />
+        <preference name="SplashScreen" value="screen" />
+        <preference name="SplashScreenDelay" value="3000" />
+        <preference name="SplashMaintainAspectRatio" value="true" />
+        <preference name="android-minSdkVersion" value="14" />
+        <preference name="StatusBarBackgroundColor" value="#960707" />
+        <preference name="SplashShowOnlyFirstTime" value="false" />
+        <splash density="land-hdpi" src="res/img/screen.png" />
+        <splash density="land-ldpi" src="res/img/screen.png" />
+        <splash density="land-mdpi" src="res/img/screen.png" />
+        <splash density="land-xhdpi" src="res/img/screen.png" />
+        <splash density="port-hdpi" src="res/img/screen.png" />
+        <splash density="port-ldpi" src="res/img/screen.png" />
+        <splash density="port-mdpi" src="res/screen/android/screen-mdpi-portrait.png" />
+        <splash density="port-xhdpi" src="res/screen/android/screen-xhdpi-portrait.png" />
+        <icon density="ldpi" src="res/icon/android/drawable-ldpi-icon.png" />
+        <icon density="mdpi" src="res/icon/android/drawable-mdpi-icon.png" />
+        <icon density="hdpi" src="res/icon/android/drawable-hdpi-icon.png" />
+        <icon density="xhdpi" src="res/icon/android/drawable-xhdpi-icon.png" />
+        <icon density="xxhdpi" src="res/icon/android/drawable-xxhdpi-icon.png" />
+        <icon density="xxxhdpi" src="res/icon/android/drawable-xxxhdpi-icon.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <engine name="android" spec="^6.2.3" />
+    <plugin name="cordova-plugin-statusbar" spec="1.0.1" />
+    <plugin name="cordova-plugin-splashscreen" spec="https://github.com/apache/cordova-plugin-splashscreen" />
+    <plugin name="cordova-plugin-admob-simple" spec="https://github.com/sunnycupertino/cordova-plugin-admob-simple" />
+</widget>
