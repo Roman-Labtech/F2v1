@@ -96,9 +96,9 @@ $$('.banner').on('click', function () {
             autoShow: true // auto show interstitial ad when loaded
         });
 
-        registerAdEvents();
-        window.plugins.AdMob.createInterstitialView();  //get the interstitials ready to be shown
-        window.plugins.AdMob.requestInterstitialAd();
+      //  registerAdEvents();
+        //window.plugins.AdMob.createInterstitialView();  //get the interstitials ready to be shown
+        //window.plugins.AdMob.requestInterstitialAd();
 		
 //display the banner
 		window.plugins.AdMob.createBannerView();
