@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.katalog.labtech" version="1.7.7" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Лабораторные Технологии</name>
+<widget id="com.katalog.labtech" version="1.7.9" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>F2v1</name>
     <description>
        Framevork v2
     </description>
@@ -46,5 +46,5 @@
     <engine name="android" spec="^6.2.3" />
     <plugin name="cordova-plugin-statusbar" spec="1.0.1" />
     <plugin name="cordova-plugin-splashscreen" spec="https://github.com/apache/cordova-plugin-splashscreen" />
-    <plugin name="cordova-plugin-admob-simple" spec="https://github.com/sunnycupertino/cordova-plugin-admob-simple" />
+    <plugin name="cordova-plugin-admob-x" spec="https://github.com/cordovaplugz/cordova-plugin-admob-x" />
 </widget>
