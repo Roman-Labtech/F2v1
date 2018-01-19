@@ -29,10 +29,7 @@
 
 <body>
   <script>
-	 function exitFromApp()
-       {
-        navigator.app.exitApp();
-       }; 
+	
       </script> 
   <div id="app">
     <!-- Status bar overlay for fullscreen mode-->
@@ -254,8 +251,7 @@
 				   function () { 
 				   app.panel.open('left', true);},
 				   function () { 
-                   app.router.navigate('/about/')                                  
-                   ;}
+                   app.router.back(,animate=true);}
                  )">
                Hello1
                </button>
