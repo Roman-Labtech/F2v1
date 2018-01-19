@@ -26,7 +26,14 @@
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/icons.css">
 </head>
+
 <body>
+  <script>
+	 function exitFromApp()
+       {
+        navigator.app.exitApp();
+       }; 
+      </script> 
   <div id="app">
     <!-- Status bar overlay for fullscreen mode-->
     <div class="statusbar"></div>
@@ -120,7 +127,7 @@
         <!-- Page, data-name contains page name which can be used in page callbacks -->
         <div class="page" data-name="home">
           <!-- Top Navbar -->
-          <div class="navbar danger">
+          <div class="navbar color-red">
             <div class="navbar-inner">
               <div class="left">
                 <a href="#" class="link icon-only panel-open" data-panel="left">           
@@ -227,7 +234,7 @@
                <a href="#" class="item-link button signIn">Sign In</a></li><br>                                
                 <button class="red col button button-raised color-red" onclick="signIn">INPUT 1</button> 
                    
-                    <button class="red col button button-raised color-red" @click="pole2alert()">INPUT 2</button>  
+                    <button class="red col button button-raised color-red" @click="exitFromApp()">EXIT</button>  
                  
                           
               <button class="red col button button-raised color-red" onclick="app.dialog.alert(x)">
