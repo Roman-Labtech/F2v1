@@ -59,6 +59,9 @@ $$('.panel-left').on('panel:opened', function () {
 
 
 
+
+
+
 // Prompt
 $$('.open-prompt').on('click', function () {
   app.dialog.prompt('Введите число ?', function (name) {
@@ -162,3 +165,19 @@ $$('#my-login-screen .login-button').on('click', function () {
 function xx2(){
 	app.dialog.alert('Username: ' + username + '<br>Password: ' + password);
 }
+
+
+
+
+
+
+
+							  
+ function onConfirmExit(button){
+ 	if(button==1){
+ 		navigator.app.exitApp();
+ 	}
+ 	else{
+ 		return;
+ 	}
+ }
