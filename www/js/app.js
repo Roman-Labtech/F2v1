@@ -57,8 +57,10 @@ $$('.panel-left').on('panel:opened', function () {
 });
 
 
-$$('.exit').on('click', function () {
+$$('.exit-click').on('click', function () {
+	 app.dialog.alert('Выход из приложения');
 	 router.app.exitApp();
+	
 });
 
 
