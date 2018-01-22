@@ -75,7 +75,6 @@ $$('.open-prompt').on('click', function () {
 // Prompt
 $$('.banner').on('click', function () {
 	
-    if ( window.plugins && window.plugins.AdMob ) {
         var ad_units = {
             ios : {
                 banner: 'ca-app-pub-3940256099942544/6300978111',       //PUT ADMOB ADCODE HERE
@@ -105,12 +104,10 @@ $$('.banner').on('click', function () {
 		
 //display the banner
 		window.plugins.AdMob.createBannerView();
-
-    } else {
+      
+    
         alert( 'admob plugin not ready' );
-		window.plugins.AdMob.createBannerView();
-    }
-	
+			
 });
 
 
@@ -162,6 +159,7 @@ $$('#my-login-screen .login-button').on('click', function () {
   app.dialog.alert('Username: ' + username + '<br>Password: ' + password);
 });
 
+
 function xx2(){
 	app.dialog.alert('Username: ' + username + '<br>Password: ' + password);
 }
@@ -169,7 +167,7 @@ function xx2(){
 
 
 
-
+$$()
 
 
 							  
