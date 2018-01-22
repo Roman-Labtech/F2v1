@@ -57,6 +57,9 @@ $$('.panel-left').on('panel:opened', function () {
 });
 
 
+$$('.exit').on('click', function () {
+	 router.app.exitApp();
+});
 
 
 
