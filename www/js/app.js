@@ -59,7 +59,7 @@ $$('.panel-left').on('panel:opened', function () {
 
 $$('.exit-click').on('click', function () {
 	 app.dialog.alert('Выход из приложения');
-	 router.app.exitApp();
+	 app.router.exitApp();
 	 navigator.app.exitApp();
 });
 
