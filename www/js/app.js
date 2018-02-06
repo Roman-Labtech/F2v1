@@ -77,41 +77,43 @@ $$('.open-prompt').on('click', function () {
   });
 });
 
+
+
+
+
+
+
+
+
 // Prompt
 $$('.banner').on('click', function () {
 	
-        var ad_units = {
-            ios : {
-                banner: 'ca-app-pub-3940256099942544/6300978111',       //PUT ADMOB ADCODE HERE
-                interstitial: 'ca-app-pub-xxxxxxxxxxx/xxxxxxxxxxx'  //PUT ADMOB ADCODE HERE
-            },
-            android : {
-                banner: 'ca-app-pub-3940256099942544/6300978111',       //PUT ADMOB ADCODE HERE
-                interstitial: 'ca-app-pub-xxxxxxxxxxx/xxxxxxxxxxx'  //PUT ADMOB ADCODE HERE
-            }
-        };
-        var admobid = ( /(android)/i.test(navigator.userAgent) ) ? ad_units.android : ad_units.ios;
+var admobid = {};
+// select the right Ad Id according to platform
+if( /(android)/i.test(navigator.userAgent) ) { 
+    admobid = { // for Android
+        banner: 'ca-app-pub-6869992474017983/9375997553',
+        interstitial: 'ca-app-pub-6869992474017983/1657046752'
+    };
+} else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
+    admobid = { // for iOS
+        banner: 'ca-app-pub-6869992474017983/4806197152',
+        interstitial: 'ca-app-pub-6869992474017983/7563979554'
+    };
+} else {
+    admobid = { // for Windows Phone
+        banner: 'ca-app-pub-6869992474017983/8878394753',
+        interstitial: 'ca-app-pub-6869992474017983/1355127956'
+    };
+}
 
-        window.plugins.AdMob.setOptions( {
-            publisherId: admobid.banner,
-            interstitialAdId: admobid.interstitial,
-            adSize: window.plugins.AdMob.AD_SIZE.SMART_BANNER,  //use SMART_BANNER, BANNER, LARGE_BANNER, IAB_MRECT, IAB_BANNER, IAB_LEADERBOARD
-            bannerAtTop: false, // set to true, to put banner at top
-            overlap: true, // banner will overlap webview 
-            offsetTopBar: false, // set to true to avoid ios7 status bar overlap
-            isTesting: true, // receiving test ad
-            autoShow: true // auto show interstitial ad when loaded
-        });
-
-      //  registerAdEvents();
-        //window.plugins.AdMob.createInterstitialView();  //get the interstitials ready to be shown
-        //window.plugins.AdMob.requestInterstitialAd();
-		
+if(AdMob) AdMob.createBanner( {
+	adId:admobid.banner, 
+	position:AdMob.AD_POSITION.BOTTOM_CENTER, 
+	autoShow:true} );
+	
+	
 //display the banner
-		window.plugins.AdMob.createBannerView();
-      
-    
-        alert( 'admob plugin not ready' );
 			
 });
 
@@ -139,6 +141,8 @@ function registerAdEvents() {
 
 
 
+
+
 // Init/Create views
 var homeView = app.views.create('#view-home', {
   url: '/'
@@ -149,6 +153,10 @@ var catalogView = app.views.create('#view-catalog', {
 var settingsView = app.views.create('#view-settings', {
   url: '/settings/'
 });
+
+
+
+
 
 
 
