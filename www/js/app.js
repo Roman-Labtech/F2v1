@@ -80,14 +80,9 @@ $$('.open-prompt').on('click', function () {
 
 
 
-
-
-
-
-
 // Prompt
 $$('.banner').on('click', function () {
-	
+	alert("fff");
 var admobid = {};
 // select the right Ad Id according to platform
 if( /(android)/i.test(navigator.userAgent) ) { 
@@ -95,7 +90,7 @@ if( /(android)/i.test(navigator.userAgent) ) {
         banner: 'ca-app-pub-6869992474017983/9375997553',
         interstitial: 'ca-app-pub-6869992474017983/1657046752'
     };
-} else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
+} else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) s
     admobid = { // for iOS
         banner: 'ca-app-pub-6869992474017983/4806197152',
         interstitial: 'ca-app-pub-6869992474017983/7563979554'
@@ -107,7 +102,7 @@ if( /(android)/i.test(navigator.userAgent) ) {
     };
 }
 
-if(AdMob) AdMob.createBanner( {
+AdMob.createBanner( {
 	adId:admobid.banner, 
 	position:AdMob.AD_POSITION.BOTTOM_CENTER, 
 	autoShow:true} );
@@ -136,10 +131,6 @@ function registerAdEvents() {
 
 
 // Add the following 2 functions and call them when you want ads to show
-
-
-
-
 
 
 
