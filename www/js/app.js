@@ -82,7 +82,7 @@ $$('.open-prompt').on('click', function () {
 
 // Prompt
 $$('.banner').on('click', function () {
-	alert("fff");
+		alert("fff");
 var admobid = {};
     if( /(android)/i.test(navigator.userAgent) ) { // for android & amazon-fireos 
     admobid = {
@@ -102,9 +102,11 @@ var admobid = {};
 }
 if(AdMob) AdMob.createBanner({
   adId: admobid.banner,
-  position: AdMob.AD_POSITION.TOP_CENTER,
+  overlap: true,	
+  isTesting: true,	
+  position: AdMob.AD_POSITION.BOTTOM_CENTER,
   autoShow: true });
-	
+
 			
 });
 
