@@ -86,7 +86,7 @@ $$('.banner').on('click', function () {
 var admobid = {};
     if( /(android)/i.test(navigator.userAgent) ) { // for android & amazon-fireos 
     admobid = {
-        //banner: 'ca-app-pub-xxx/xxx', // or DFP format "/6253334/dfp_example_ad" 
+        banner: 'ca-app-pub-3940256099942544/6300978111', // or DFP format "/6253334/dfp_example_ad" 
         interstitial: 'ca-app-pub-9609087637503923/1710134090'
     };
 } else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) { // for ios 
@@ -100,10 +100,10 @@ var admobid = {};
         interstitial: 'ca-app-pub-xxx/kkk'
     };
 }
-if(AdMob)
-{
-    AdMob.prepareInterstitial( {adId:admobid.interstitial, autoShow:false} );
-}
+if(AdMob) AdMob.createBanner({
+  adId: admobid.banner,
+  position: AdMob.AD_POSITION.TOP_CENTER,
+  autoShow: true });
 	
 			
 });
